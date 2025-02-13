@@ -75,9 +75,7 @@ npm start
 3. Monitor voting results
 4. View all active comparisons
 
-## Development
-
-### Project Structure
+## Project Structure
 ```
 ├── client/               # Frontend React application
 │   ├── src/
