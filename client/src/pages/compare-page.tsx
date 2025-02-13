@@ -103,9 +103,13 @@ export default function ComparePage() {
           </motion.div>
         </div>
 
-        <div className="mt-8 text-center">
+        <div className="mt-8 text-center space-x-4">
           <Link href="/auth" className="text-sm text-muted-foreground hover:underline">
             Admin Login
+          </Link>
+          <span className="text-muted-foreground">•</span>
+          <Link href="/leaderboard" className="text-sm text-muted-foreground hover:underline">
+            View Leaderboard
           </Link>
         </div>
       </div>

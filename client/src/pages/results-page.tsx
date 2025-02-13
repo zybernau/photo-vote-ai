@@ -82,9 +82,12 @@ export default function ResultsPage() {
           </Card>
         </div>
 
-        <div className="mt-8 text-center">
+        <div className="mt-8 text-center space-x-4">
           <Link href="/">
-            <Button>Vote on Another Comparison</Button>
+            <Button variant="outline">Vote on Another Comparison</Button>
+          </Link>
+          <Link href="/leaderboard">
+            <Button>View Leaderboard</Button>
           </Link>
         </div>
       </div>

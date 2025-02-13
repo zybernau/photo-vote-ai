@@ -9,12 +9,14 @@ import AuthPage from "@/pages/auth-page";
 import AdminPage from "@/pages/admin-page";
 import ComparePage from "@/pages/compare-page";
 import ResultsPage from "@/pages/results-page";
+import LeaderboardPage from "@/pages/leaderboard-page";
 
 function Router() {
   return (
     <Switch>
       <Route path="/" component={ComparePage} />
       <Route path="/results/:id" component={ResultsPage} />
+      <Route path="/leaderboard" component={LeaderboardPage} />
       <Route path="/auth" component={AuthPage} />
       <ProtectedRoute path="/admin" component={AdminPage} />
       <Route component={NotFound} />
